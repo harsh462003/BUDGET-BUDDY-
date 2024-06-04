@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".history"
+    android:background="#d4ab9e">
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="107dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#d4ab9e"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/back" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imageButton4"
+        android:layout_marginTop="0dp"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="657dp"
+        android:text="HISTORY"
+        android:textColor="#EA1414"
+        android:textSize="24sp" />
+</RelativeLayout>

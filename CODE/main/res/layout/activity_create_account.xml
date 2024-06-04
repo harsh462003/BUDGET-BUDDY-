@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4F5FD"
+    tools:context=".CreateAccountActivity">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="586dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="60dp"
+        android:background="#E4F5FD"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="160dp"
+            android:layout_height="153dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/createaccount" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="Enter Your Name"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/newUsernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameEditText"
+            android:layout_margin="16dp"
+            android:hint="New Username"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/newPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newUsernameEditText"
+            android:layout_margin="16dp"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newPasswordEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#c1121f"
+            android:text="SUBMIT"
+            android:textColor="#003049"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/returnbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newPasswordEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#c1121f"
+            android:text="RETURN"
+            android:textColor="#003049"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

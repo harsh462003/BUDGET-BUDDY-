@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4F5FD"
+    tools:context=".HomeActivity">
+
+    <!-- Title TextView -->
+
+    <!-- Container for Transactions -->
+
+    <!-- Bottom Navigation Bar -->
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:gravity="center"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="sans-serif"
+        android:text="BudgetBuddy"
+        android:textColor="#c1121f"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="378dp"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="51dp"
+        android:background="#E4F5FD"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/amountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Amount"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Description"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <!-- Buttons for Cash In and Cash Out -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Cash In Button -->
+            <Button
+                android:id="@+id/cashInButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+
+                android:backgroundTint="#a7c957"
+                android:gravity="center"
+                android:padding="16dp"
+
+
+                android:text="Cash In"
+
+                android:textColor="#003049"
+                android:textSize="25dp" />
+
+            <!-- Cash Out Button -->
+            <Button
+                android:id="@+id/cashOutButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+
+                android:backgroundTint="#6a994e"
+                android:gravity="center"
+                android:padding="16dp"
+
+
+                android:text="Cash Out"
+
+                android:textColor="#003049"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/balanceTextView"
+            android:layout_width="351dp"
+            android:layout_height="62dp"
+            android:layout_below="@id/titleTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="My Balance: ₹0.00"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <!-- Transaction TextView -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:elevation="8dp">
+
+        <!-- Invest Button -->
+        <Button
+            android:id="@+id/investButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Invest"
+
+            android:backgroundTint="#f48c06"
+
+            android:textColor="#003049"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:padding="16dp"/>
+
+        <!-- Convert Button -->
+        <Button
+            android:id="@+id/convertButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Convert"
+
+            android:backgroundTint="#3e5c76"
+
+            android:textColor="@color/white"
+            android:textSize="25dp"
+
+
+
+            android:gravity="center"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="107dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#E4F5FD"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logout" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomNavigationBar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="18dp"
+
+
+        android:backgroundTint="#3e5c76"
+
+        android:gravity="center"
+
+        android:padding="16dp"
+        android:text="HISTORY"
+
+
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+    />
+
+</RelativeLayout>
