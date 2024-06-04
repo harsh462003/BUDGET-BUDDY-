@@ -18,3 +18,29 @@ Budget Buddy is designed to help users manage their finances by providing a simp
 - **Budgeting**: Set monthly budgets and track spending against them.
 - **Reports**: Generate detailed reports on income, expenses, and budget adherence.
 - **Notifications**: Receive alerts for upcoming bill payments and budget limits.
+
+## **Screenshots**
+
+### **Login Page**
+![Login Page](images/Screenshot-2024-06-02-223606.png)
+
+### **Create Account Page**
+![Create Account Page](images/Screenshot-2024-06-02-223623.png)
+
+### **Dashboard**
+![Dashboard](images/Screenshot-2024-06-02-223722.png)
+
+### **Transaction Saved**
+![Transaction Saved](images/Screenshot-2024-06-02-223755.png)
+
+### **Balance Update**
+![Balance Update](images/Screenshot-2024-06-02-231204.png)
+
+### **Investment Calculation**
+![Investment Calculation](images/Screenshot-2024-06-02-231235.png)
+
+### **Currency Conversion**
+![Currency Conversion](images/Screenshot-2024-06-02-231250.png)
+
+### **Transaction History**
+![Transaction History](images/Screenshot-2024-06-02-231314.png)
