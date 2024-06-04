@@ -21,26 +21,28 @@ Budget Buddy is designed to help users manage their finances by providing a simp
 
 ## **Screenshots**
 
-### **Login Page**
-![Login Page](images/Screenshot%202024-06-02%20223606.png)
+### **Login Page and Create Account Page**
+<p float="left">
+  <img src="images/Screenshot%202024-06-02%20223606.png" alt="Login Page" width="200"/>
+  <img src="images/Screenshot%202024-06-02%20223623.png" alt="Create Account Page" width="200"/>
+</p>
 
-### **Create Account Page**
-![Create Account Page](images/Screenshot%202024-06-02%20223623.png)
+### **Dashboard and Transaction Saved**
 
-### **Dashboard**
-![Dashboard](images/Screenshot%202024-06-02%20223722.png)
+<p float="left">
+  <img src="images/Screenshot%202024-06-02%20223722.png" alt="Dashboard" width="200"/>
+  <img src="images/Screenshot%202024-06-02%20223755.png" alt="Transaction Saved" width="200"/>
+</p>
 
-### **Transaction Saved**
-![Transaction Saved](images/Screenshot%202024-06-02%20223755.png)
-
-### **Balance Update**
-![Balance Update](images/Screenshot%202024-06-02%20231204.png)
+### **Balance Update and Currency Conversion**
+<p float="left">
+  <img src="images/Screenshot%202024-06-02%20231204.png" alt="Balance Update" width="200"/>
+  <img src="images/Screenshot%202024-06-02%20231314.png" alt="Transaction History" width="200"/>
+  
+</p>
 
 ### **Investment Calculation**
-![Investment Calculation](images/Screenshot%202024-06-02%20231235.png)
-
-### **Currency Conversion**
-![Currency Conversion](images/Screenshot%202024-06-02%20231250.png)
-
-### **Transaction History**
-![Transaction History](images/Screenshot%202024-06-02%20231314.png)
+<p float="left">
+  <img src="images/Screenshot%202024-06-02%20231250.png" alt="Currency Conversion" width="200"/>
+  <img src="images/Screenshot%202024-06-02%20231235.png" alt="Investment Calculation" width="200"/>
+</p>
