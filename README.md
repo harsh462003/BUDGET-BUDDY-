@@ -22,25 +22,25 @@ Budget Buddy is designed to help users manage their finances by providing a simp
 ## **Screenshots**
 
 ### **Login Page**
-![Login Page](images/Screenshot-2024-06-02-223606.png)
+![Login Page](images/Screenshot%202024-06-02%20223606.png)
 
 ### **Create Account Page**
-![Create Account Page](images/Screenshot-2024-06-02-223623.png)
+![Create Account Page](images/Screenshot%202024-06-02%20223623.png)
 
 ### **Dashboard**
-![Dashboard](images/Screenshot-2024-06-02-223722.png)
+![Dashboard](images/Screenshot%202024-06-02%20223722.png)
 
 ### **Transaction Saved**
-![Transaction Saved](images/Screenshot-2024-06-02-223755.png)
+![Transaction Saved](images/Screenshot%202024-06-02%20223755.png)
 
 ### **Balance Update**
-![Balance Update](images/Screenshot-2024-06-02-231204.png)
+![Balance Update](images/Screenshot%202024-06-02%20231204.png)
 
 ### **Investment Calculation**
-![Investment Calculation](images/Screenshot-2024-06-02-231235.png)
+![Investment Calculation](images/Screenshot%202024-06-02%20231235.png)
 
 ### **Currency Conversion**
-![Currency Conversion](images/Screenshot-2024-06-02-231250.png)
+![Currency Conversion](images/Screenshot%202024-06-02%20231250.png)
 
 ### **Transaction History**
-![Transaction History](images/Screenshot-2024-06-02-231314.png)
+![Transaction History](images/Screenshot%202024-06-02%20231314.png)
